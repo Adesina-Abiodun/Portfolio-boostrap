@@ -1,0 +1,58 @@
+.header-bg {
+  background-image: url("./assests/Header bg@2x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-section {
+  height: 90vh;
+}
+
+.rounded-bottom-start {
+  border-bottom-left-radius: 10%;
+}
+
+.rounded-top {
+  border-top-right-radius: 50px;
+}
+
+.rounded {
+  border: none;
+  outline: none;
+  background: #ebebff;
+}
+
+.cading {
+  margin-top: 30%;
+}
+
+.bg-col {
+  background-color: #ebebff;
+}
+
+.mr {
+  margin-left: 200% !important;
+}
+
+.img-red {
+  width: 10px;
+  height: 15px;
+}
+
+@media (max-width: 375px) {
+  .header-bg {
+    background-image: url("./assests/header-shapes mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .none {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .none-bg {
+    display: none;
+  }
+}
